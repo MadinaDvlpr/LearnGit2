@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Ma page de profil</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav id="navigation-menu">
-        <a class="nav_link" href="index.html"><ion-icon name="home-outline"></ion-icon>Accueil</a>
-        <a class="nav_link" href="ma_page_de_profil.html"><ion-icon name="person-outline"></ion-icon>Mon profil</a>
+      <a class="nav_link" href="index.html"
+        ><ion-icon name="home-outline"></ion-icon>Accueil</a
+      >
+      <a class="nav_link" href="ma_page_de_profil.html"
+        ><ion-icon name="person-outline"></ion-icon>Mon profil</a
+      >
+      <a class="nav_link" href="contact.html"
+        ><ion-icon name="chatbox-ellipses-outline"></ion-icon>Contact</a
+      >
     </nav>
 
     <div class="hero_profil">
-        <div class="profile_section">
-            <img id="profile_pic" src="images/profil.jpeg" alt="">
-            <h1>My Name</h1>
-            <p>Ma profession</p>
+      <div class="profile_section">
+        <img id="profile_pic" src="images/profil.jpeg" alt="" />
+        <h1>My Name</h1>
+        <p>Ma profession</p>
+      </div>
+
+      <div class="profile_section" id="about_me">
+        <h2>About me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+          nobis, atque doloribus quisquam, maxime qui, quae quidem eveniet ullam
+          consequatur commodi voluptatibus sunt vel ipsam animi et odio dolorum
+          soluta.
+        </p>
+
+        <div class="filter_container">
+          <p>Additionnal infos</p>
+          <p><strong>Employment ID:</strong> XXXXXXXXXXX</p>
+          <p><strong>Department :</strong> Informatique</p>
+          <p><strong>Quote : </strong>Ma super citation</p>
+          <p><strong>Status :</strong> Single</p>
         </div>
-
-        <div class="profile_section" id="about_me">
-            <h2>About me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nobis, atque doloribus quisquam, maxime qui, quae quidem eveniet ullam consequatur commodi voluptatibus sunt vel ipsam animi et odio dolorum soluta.</p>
-
-            <div class="filter_container">
-                <p>Additionnal infos</p>
-                <p><strong>Employment ID:</strong> XXXXXXXXXXX</p>
-                <p><strong>Department :</strong> Informatique</p>
-                <p><strong>Quote : </strong>Ma super citation</p>
-                <p><strong>Status :</strong> Single</p>
-
-            </div>
-            <button class="cancel_button">CANCEL</button>            
-            <button class="save_button">SAVE</button>
-
-        </div>
-        
-        
-
-
+        <button class="cancel_button">CANCEL</button>
+        <button class="save_button">SAVE</button>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
